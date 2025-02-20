@@ -1,0 +1,3 @@
+Obliczeniowa weryfikacja hipotezy kombinatorycznej
+
+Projekt dotyczy obliczeniowej weryfikacji hipotezy kombinatorycznej związanej z multizbiorami d-ograniczonymi. Celem jest obliczenie wartości funkcji α(d, A0, B0) dla różnych multizbiorów A0 i B0, które maksymalizują sumy elementów w multizbiorach A i B, przy zachowaniu warunków bezsporności. Zadanie polega na zaimplementowaniu trzech wersji algorytmu: referencyjnej rekurencyjnej, nie-rekurencyjnej (jednowątkowej) oraz równoległej (wielowątkowej), przy czym szczególny nacisk kładzie się na skalowalność wersji równoległej i jej porównanie z wersją sekwencyjną. Implementacja musi operować na tych samych multizbiorach i wykonywać te same operacje, ale równolegle, aby uzyskać jak najlepszą wydajność na dużych danych.
